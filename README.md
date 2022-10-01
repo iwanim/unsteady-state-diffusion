@@ -1,5 +1,4 @@
-# Unsteady state diffusion
-Numerically modelling unsteady state diffusion
+### Numerically modelling unsteady state diffusion
 
 The function is used to numerically model unsteady state diffusion by providing a 2D profile of how concentration varies in space with time, iterating over a discretised form of the unsteady state diffusion equation to produce a field of cells with decreasing values away from its centre (returned as a matrix u) representing decreasing levels of concentration in the directions of diffusion.
 
@@ -10,6 +9,6 @@ Problems which could be represented using this model include the diffusion of on
 <img align="left" width="45%" src="https://user-images.githubusercontent.com/112774862/193430549-d23b7f2b-49cd-41bf-8e3b-984ab5d86f49.gif">
 <img align="right" width="45%" src="https://user-images.githubusercontent.com/112774862/193430572-c2e8affa-40e2-44b7-8a2b-8c57e5e38584.gif">
 
+<br clear="left"/>
 <br/>
-
 Including boundary conditions changes the solution as an element of movement is introduced to the edge of the field (above). Similarly, increasing the viscosity parameter increases the extent of diffusion in the same time; increasing the maximum number of iterations provides a picture further in time of the state of diffusion through the field.
