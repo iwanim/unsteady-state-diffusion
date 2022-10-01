@@ -23,8 +23,8 @@ stress state in a material, pressure gradients, and electromagnetic fields.
 ![diffusion](https://user-images.githubusercontent.com/112774862/193430549-d23b7f2b-49cd-41bf-8e3b-984ab5d86f49.gif)
 ![diffusion_boundaries](https://user-images.githubusercontent.com/112774862/193430572-c2e8affa-40e2-44b7-8a2b-8c57e5e38584.gif)
 
-<img align="left" src="https://user-images.githubusercontent.com/112774862/193430549-d23b7f2b-49cd-41bf-8e3b-984ab5d86f49.gif">
-<img align="right" src="https://user-images.githubusercontent.com/112774862/193430572-c2e8affa-40e2-44b7-8a2b-8c57e5e38584.gif">
+<img align="left" width="40%" src="https://user-images.githubusercontent.com/112774862/193430549-d23b7f2b-49cd-41bf-8e3b-984ab5d86f49.gif">
+<img align="right" width="40%" src="https://user-images.githubusercontent.com/112774862/193430572-c2e8affa-40e2-44b7-8a2b-8c57e5e38584.gif">
 
 Including boundary conditions changes the solution as an element of movement is 
 introduced to the edge of the field (above). Similarly, increasing the viscosity parameter increases the extent of 
