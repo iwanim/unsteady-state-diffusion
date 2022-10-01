@@ -56,8 +56,7 @@ function u = solve_unsteady_diff(uinitial, Lx, Ly, Mx, My, nu, maxIter, dt, xper
     
         for j = 2:My - 1
             for i = 2:Mx - 1
-                utp1(i,j) = u(i,j) + nu*dt*( (u(i+1,j) - 2*u(i,j) + u(i-1,j))/dx^2 ...
-                    + (u(i,j+1) - 2*u(i,j) + u(i,j-1))/dy^2);
+                utp1(i,j) = u(i,j) + nu*dt*( (u(i+1,j) - 2*u(i,j) + u(i-1,j))/dx^2 + (u(i,j+1) - 2*u(i,j) + u(i,j-1))/dy^2);
             end
         end
         
